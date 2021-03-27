@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: linear-gradient(to left, #660066, #9900ff, #3333ff);
+    zoom: 75%;
+}
+
+#nav{
+    text-align: right;
+    background-color: #2196f3;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-size: 115%;
+}
+.menu ul{
+    padding-top: 10px;
+    display: inline-flex;
+    margin: 20px;
+    font-size: 26px;
+    
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 30px;
+     color: white;
+     cursor: pointer;
+}
+.Logo1{
+    position: absolute;
+    margin-top: -20px;
+}
+.Logo1 img{
+    height: 90px;
+    margin-top: -83px;
+    padding-left: 37px;
+}
+.Logoheading1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+#area1{
+    background-image: url('https://www.pixel4k.com/wp-content/uploads/2018/09/books-shelf-graffiti-art-4k_1536098329.jpg');
+    
+}
+
+.heading{
+    font-size:50;
+    padding-top: 240px;
+    padding-left: 550px;
+    padding-bottom: 220px;
+    color: white;
+}
+.Paragraph1{
+    position: absolute;
+    top: 57%;
+    left: 41%;
+    color: white;
+}
+.AboutUs{
+    text-decoration: none;
+    color: white;
+}
+.Faq{
+    text-decoration: none;
+    color:white;
+}
+.OurProject{
+    text-decoration: none;
+    color: white;
+}
+.Home{
+    text-decoration: none;
+    color: white;
+}
+a{
+    position:relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border: 1px solid #2196f3;
+}
+a:hover
+{
+    color: #255784;
+    background:#2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 10px #2196f3;
+}
+.buttons{
+    padding-bottom: 140px;
+    margin-top: -200;
+    padding-left: 40px;
+}
+.Mainstuff {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 400px;
+}
+
+.info {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -8%;
+    transform: translateY(-50%);
+}
+
+#circle {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+}
+
+.feature{
+    position: absolute;
+}
+
+.feature img {
+    width: 200px;
+    height: 200px
+}
+
+.feature div{
+    margin-left: 30px;
+}
+
+.feature div p{
+    margin-top: 8px;
+}
+
+.one {
+    top: 350px;
+    left: 1000px;
+    font-size: large;
+    
+}
+
+.two {
+    top: 100px;
+    left: 600px;
+    font-size: large;
+}
+
+.three {
+    bottom: 350px;
+    left: 250px;
+    font-size: large;
+}
+
+.four {
+    bottom: 10px;
+    right: 125px;
+    font-size: large;
+}
+
+.ptext {
+    display: inline-flex;
+    font-size: large;
+    right: 80px;
+    position: relative;
+}
+
+h1.custom {
+    right: 0px;
+    left: 25px;
+    position: relative;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    top: 55%;
+    left: 61%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.controls {
+    position: absolute;
+    right: 40%;
+    top: 60%;
+    transform: translateY(-50%);
+    margin: 0%;
+}
+
+.controls h3 {
+    margin: 15px 0;
+    color: #FFF;
+    font-size: 30px;
+}
+
+#upBtn {
+    width: 15px;
+    cursor: pointer;
+    position: relative;
+    left: 130px;
+}
+
+#downBtn {
+    width: 15px;
+    cursor: pointer;
+    left: 130px;
+    position: relative;
+}
+
+.no {
+    position: relative;
+    left: 80px;
+}
+
+section {
+    display: flex;
+    text-align: left;
+    font-size: x-large;
+    position: absolute;
+    margin-top: -700px;
+    left: 65%;
+}
+
+.container {
+    width: 100%;
+    max-width: 80rem;
+    padding: 0 1.5rem;
+    bottom: 100px;
+}
+.dropdowns{
+    position: absolute;
+    top: 33%;
+    left: 67%;
+    padding-right: 20px;
+}
+.accordion-item{
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    box-shadow: .5rem 2px .5rem rgb(0, 0, 0, .1);
+}
+
+.accordion-link{
+    font: 1.6rem;
+    color: rgba(255, 255, 255, 255);
+    text-decoration: none;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative; 
+    color: black;
+    transition: max-height 650ms;
+}
+
+.answer p {
+    font-size: 1.4rem;
+    color: black;
+}
+
+.accordion-item:target .answer{
+    max-height: 20rem;
+
+}
+#footer{
+    background-color: #2196f3;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    clear: both;
+    left: 0%;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.social-icons{
+    margin-top: 25px;
+    left: 50%;
+    
+    }
+    .social-icons ul li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    }
+    .social-icons ul li a{
+    color: rgb(255, 251, 251);
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px 20px;
+    display: block;
+    }
